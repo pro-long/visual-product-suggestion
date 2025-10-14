@@ -26,6 +26,8 @@ This deployment uses Render's free plan, which has a specific behavior to be awa
 
 **In summary:** If you are the first user to access the app after a while, please be patient as the initial image match may take a minute to process.
 
+To mitigate this, an external [**cron job**](https://cron-job.org/en/) is used. This service sends a `GET` request to the server every 15 minutes to keep it "warm" and responsive, significantly reducing the likelihood of a user experiencing a cold start.
+
 
 ## How it Works
 
