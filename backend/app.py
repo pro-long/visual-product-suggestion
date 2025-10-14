@@ -78,6 +78,12 @@ def compute_similarity(user_tags, product_tags):
     # Normalize by 5 (top 5 tags)
     return round(total / 5, 2)
 
+
+@app.route("/health")
+def health_check():
+    return jsonify({"status": "ok"}), 200
+
+
 @app.route("/api/match", methods=["GET", "POST"])
 def match():
     file = request.files.get("image")
