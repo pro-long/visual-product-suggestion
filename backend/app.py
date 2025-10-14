@@ -17,7 +17,7 @@ with open(DB_PATH, "r", encoding="utf-8") as f:
 PRODUCTS = db.get("products", [])
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000", "https://*.onrender.com"])
+CORS(app, origins=["http://localhost:3000", os.getenv("FRONTEND_URL","https://*.onrender.com")])
 
 # Imagga service
 class ImaggaService:
