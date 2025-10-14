@@ -4,6 +4,29 @@
 
 Visual Product Matcher is a simple web application that helps users find visually similar products by uploading an image or providing an image URL. The backend uses image tagging (via the Imagga API) and a lightweight similarity scoring to match the uploaded image against a local database of products, returning suggestions based on visual tags. The frontend gives users a modern and minimalist interface to upload images, set similarity thresholds, view previews, and see matched products.
 
+
+## Deployment
+
+This project is deployed on **Render** using its free tier. The application consists of two separate services:
+
+-   **Backend**: A Python Flask application deployed as a **Web Service**.
+-   **Frontend**: A React application deployed as a **Static Site**.
+
+You can access the live application here: [Visual Product Matcher](https://visual-product-suggestion-1.onrender.com/)
+
+### Important Note on Free Tier Usage
+
+This deployment uses Render's free plan, which has a specific behavior to be aware of:
+
+-   **Server Sleeps on Inactivity**: If the backend service does not receive any requests for **15 minutes**, it will automatically "spin down" or go to sleep to conserve resources.
+
+-   **Automatic Wake-Up and "Cold Start"**: When a new request is sent to the backend after it has gone to sleep, Render will automatically wake it up. This first request will take longer than usual (typically **30-90 seconds**) as the server needs to start up again. This is known as a "cold start".
+
+-   **Normal Performance After Wake-Up**: Once the server is awake, all subsequent requests will be fast and perform as expected until the next 15-minute period of inactivity.
+
+**In summary:** If you are the first user to access the app after a while, please be patient as the initial image match may take a minute to process.
+
+
 ## How it Works
 
 1. **User Input:**
@@ -22,21 +45,24 @@ Visual Product Matcher is a simple web application that helps users find visuall
 
 - `App.js` & `App.css` -- React frontend for user interaction, image upload, preview, and result display.
 - `app.py` -- Flask backend REST API for handling image upload/URL, calling Imagga, and calculating/tagging matches.
+- `products_with_cloudinary.json` -- local database should be placed in `visual-product-suggestion/backend` (Check Dataset Creation for generating this file).
 
 ## Dataset Creation
 
 To create or update the product database file, a folder named `DB_creation_data` is provided in this repository.
-- Inside it, find the Python code in `DB_creation_data/vis-suggestion/DB_creation.ipynb` for generating `products_with_cloudinary.json` using product images and Imagga's tagging API.
+- Inside it, find the Python code in `DB_creation_data/DB_creation.ipynb` for generating `products_with_cloudinary.json` using product images and Imagga's tagging API.
+- There are 61 products images available in `DB_creation_data/vis-suggestion/`, which were also used in this project.
 - This code requires API keys for both Imagga and Cloudinary.
 
 > [Imagga](https://imagga.com/): First 100 requests are free
+>
 > [Cloudinary](https://cloudinary.com/): Free for storing limited images
 
 - **Before running the script/notebook:**
   - Set your Imagga API key/secret and Cloudinary credentials in the code or relevant `.env` file.
 - Product images for the database are also included in this folder, so you can recreate or expand the dataset as needed.
 
-## How to Run the Project
+## How to Run the Project (locally)
 
 1. **Backend:**
    - Ensure Python, Flask, Flask-CORS, and requests are installed.
@@ -80,7 +106,3 @@ If the product database was moved from `products_with_cloudinary.json` to [Googl
 - **Considerations:**
   - Read performance would depend on Firestore index/query design.
   - Costs and access security would be managed by Firestore/Firebase settings.
-
-## Summary
-
-This project demonstrates visual similarity search using image auto-tagging and confidence matching, starting from a simple local JSON product DB, but is easily scalable to Firestore for production-scale catalogs.
