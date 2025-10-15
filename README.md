@@ -26,6 +26,8 @@ This deployment uses Render's free plan, which has a specific behavior to be awa
 
 **In summary:** If you are the first user to access the app after a while, please be patient as the initial image match may take a minute to process.
 
+To mitigate this, an external [**cron job**](https://cron-job.org/en/) is used. This service sends a `GET` request to the server every 15 minutes to keep it "warm" and responsive, significantly reducing the likelihood of a user experiencing a cold start.
+
 
 ## How it Works
 
@@ -47,7 +49,7 @@ This deployment uses Render's free plan, which has a specific behavior to be awa
 - `app.py` -- Flask backend REST API for handling image upload/URL, calling Imagga, and calculating/tagging matches.
 - `products_with_cloudinary.json` -- local database should be placed in `visual-product-suggestion/backend` (Check Dataset Creation for generating this file).
 
-## Dataset Creation
+## Database Creation
 
 To create or update the product database file, a folder named `DB_creation_data` is provided in this repository.
 - Inside it, find the Python code in `DB_creation_data/DB_creation.ipynb` for generating `products_with_cloudinary.json` using product images and Imagga's tagging API.
@@ -61,6 +63,51 @@ To create or update the product database file, a folder named `DB_creation_data`
 - **Before running the script/notebook:**
   - Set your Imagga API key/secret and Cloudinary credentials in the code or relevant `.env` file.
 - Product images for the database are also included in this folder, so you can recreate or expand the dataset as needed.
+
+### Database Skeleton Structure
+
+This is the general structure of the `products_with_cloudinary.json` file, showing the expected keys and data types for each section.
+
+```
+{
+  "database_info": {
+    "total_products": 0,
+    "categories": 0,
+    "created_at": "YYYY-MM-DDTHH:MM:SS.ffffff",
+    "description": "A description of the database.",
+    "last_processed": "YYYY-MM-DDTHH:MM:SS.ffffff",
+    "processed_count": 0
+  },
+  "category_mapping": {
+    "main_category_name": [
+      "sub_category_1",
+      "sub_category_2"
+    ]
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Product Name",
+      "category": "sub_category_1",
+      "main_category": "main_category_name",
+      "image_path": "/path/to/local/image.jpg",
+      "description": "A description of the product.",
+      "price": 0.00,
+      "brand": "Product Brand",
+      "imagga_tags": [
+        {
+          "tag": "tag_name",
+          "confidence": 100.00
+        }
+      ],
+      "confidence_scores": "100.00,99.99,...",
+      "created_at": "YYYY-MM-DDTHH:MM:SS.ffffff",
+      "primary_tags": "tag_name,another_tag,...",
+      "image_url": "https://url.to/live/image.jpg"
+    }
+  ]
+}
+```
 
 ## How to Run the Project (locally)
 
