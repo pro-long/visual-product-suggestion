@@ -28,6 +28,7 @@ This deployment uses Render's free plan, which has a specific behavior to be awa
 
 To mitigate this, an external [**cron job**](https://cron-job.org/en/) is used. This service sends a `GET` request to the server every 15 minutes to keep it "warm" and responsive, significantly reducing the likelihood of a user experiencing a cold start.
 
+If the application shows an error message like "Falied to fetch" or any error message related to API, (**Click here**)[https://visual-product-suggestion.onrender.com/health] to start the server the result should be ```{"status":"ok"}```. We are just sending a GET request manually which will wake the server up.    
 
 ## How it Works
 
