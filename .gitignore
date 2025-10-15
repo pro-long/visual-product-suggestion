@@ -5,7 +5,7 @@
 
 # Backend specific files
 backend/.env
-backend/products_with_cloudinary.json
+# backend/products_with_cloudinary.json
 
 # Python virtual environment
 env/

@@ -1,0 +1,2248 @@
+{
+  "database_info": {
+    "total_products": 61,
+    "categories": 3,
+    "created_at": "2025-10-11T15:54:24.191909",
+    "description": "Visual Product Matcher Database Schema",
+    "last_processed": "2025-10-11T16:00:02.856593",
+    "processed_count": 61
+  },
+  "category_mapping": {
+    "fashion_apparel": [
+      "sportswear",
+      "t_shirts",
+      "jackets",
+      "sandals",
+      "jeans",
+      "sneakers",
+      "heels",
+      "handbags",
+      "hats",
+      "formal_wear",
+      "dresses",
+      "boots",
+      "backpacks",
+      "accessories"
+    ],
+    "home_kitchen": [
+      "lighting",
+      "tables",
+      "kitchen_appliances",
+      "sofas",
+      "cookware",
+      "chairs",
+      "bedding"
+    ],
+    "electronics": [
+      "tablets",
+      "smartwatches",
+      "mouse",
+      "laptops",
+      "smartphones",
+      "power_banks",
+      "keyboards",
+      "headphones",
+      "gaming_consoles",
+      "cameras",
+      "chargers"
+    ]
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "sportswear-0",
+      "category": "sportswear",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/sportswear/sportswear-0.jpeg",
+      "description": "High-quality sportswear product: sportswear-0",
+      "price": 57.5,
+      "brand": "Brand_SPO",
+      "imagga_tags": [
+        {
+          "tag": "clothing",
+          "confidence": 27.36
+        },
+        {
+          "tag": "dress",
+          "confidence": 25.3
+        },
+        {
+          "tag": "body",
+          "confidence": 24.78
+        },
+        {
+          "tag": "attractive",
+          "confidence": 23.09
+        },
+        {
+          "tag": "maillot",
+          "confidence": 22.24
+        }
+      ],
+      "confidence_scores": "27.36,25.30,24.78,23.09,22.24",
+      "created_at": "2025-10-11T15:54:24.163325",
+      "primary_tags": "clothing,dress,body,attractive,maillot",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261204/products/fashion_apparel/sportswear/sportswear-0.jpg"
+    },
+    {
+      "id": 2,
+      "name": "t shirts-0",
+      "category": "t_shirts",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/t_shirts/t_shirts-0.jpg",
+      "description": "High-quality t shirts product: t shirts-0",
+      "price": 65.0,
+      "brand": "Brand_T_S",
+      "imagga_tags": [
+        {
+          "tag": "clothing",
+          "confidence": 38.93
+        },
+        {
+          "tag": "garment",
+          "confidence": 33.29
+        },
+        {
+          "tag": "top",
+          "confidence": 28.61
+        },
+        {
+          "tag": "fashion",
+          "confidence": 21.87
+        },
+        {
+          "tag": "adult",
+          "confidence": 17.46
+        }
+      ],
+      "confidence_scores": "38.93,33.29,28.61,21.87,17.46",
+      "created_at": "2025-10-11T15:54:24.164632",
+      "primary_tags": "clothing,garment,top,fashion,adult",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261205/products/fashion_apparel/t_shirts/t_shirts-0.jpg"
+    },
+    {
+      "id": 3,
+      "name": "t shirts-1",
+      "category": "t_shirts",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/t_shirts/t_shirts-1.jpg",
+      "description": "High-quality t shirts product: t shirts-1",
+      "price": 72.5,
+      "brand": "Brand_T_S",
+      "imagga_tags": [
+        {
+          "tag": "jersey",
+          "confidence": 60.92
+        },
+        {
+          "tag": "garment",
+          "confidence": 57.45
+        },
+        {
+          "tag": "shirt",
+          "confidence": 49.9
+        },
+        {
+          "tag": "clothing",
+          "confidence": 49.31
+        },
+        {
+          "tag": "flag",
+          "confidence": 31.84
+        }
+      ],
+      "confidence_scores": "60.92,57.45,49.90,49.31,31.84",
+      "created_at": "2025-10-11T15:54:24.164674",
+      "primary_tags": "jersey,garment,shirt,clothing,flag",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261206/products/fashion_apparel/t_shirts/t_shirts-1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "jackets-0",
+      "category": "jackets",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/jackets/jackets-0.jpg",
+      "description": "High-quality jackets product: jackets-0",
+      "price": 80.0,
+      "brand": "Brand_JAC",
+      "imagga_tags": [
+        {
+          "tag": "jacket",
+          "confidence": 71.1
+        },
+        {
+          "tag": "sleeve",
+          "confidence": 62.58
+        },
+        {
+          "tag": "clothing",
+          "confidence": 41.05
+        },
+        {
+          "tag": "fashion",
+          "confidence": 36.93
+        },
+        {
+          "tag": "clothes",
+          "confidence": 34.64
+        }
+      ],
+      "confidence_scores": "71.10,62.58,41.05,36.93,34.64",
+      "created_at": "2025-10-11T15:54:24.165418",
+      "primary_tags": "jacket,sleeve,clothing,fashion,clothes",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261207/products/fashion_apparel/jackets/jackets-0.jpg"
+    },
+    {
+      "id": 5,
+      "name": "sandals-0",
+      "category": "sandals",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/sandals/sandals-0.jpg",
+      "description": "High-quality sandals product: sandals-0",
+      "price": 87.5,
+      "brand": "Brand_SAN",
+      "imagga_tags": [
+        {
+          "tag": "footwear",
+          "confidence": 100
+        },
+        {
+          "tag": "shoe",
+          "confidence": 87.88
+        },
+        {
+          "tag": "sandal",
+          "confidence": 83.52
+        },
+        {
+          "tag": "covering",
+          "confidence": 70.42
+        },
+        {
+          "tag": "clog",
+          "confidence": 59.49
+        }
+      ],
+      "confidence_scores": "100.00,87.88,83.52,70.42,59.49",
+      "created_at": "2025-10-11T15:54:24.166257",
+      "primary_tags": "footwear,shoe,sandal,covering,clog",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261208/products/fashion_apparel/sandals/sandals-0.jpg"
+    },
+    {
+      "id": 6,
+      "name": "sandals-1",
+      "category": "sandals",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/sandals/sandals-1.jpg",
+      "description": "High-quality sandals product: sandals-1",
+      "price": 95.0,
+      "brand": "Brand_SAN",
+      "imagga_tags": [
+        {
+          "tag": "sandal",
+          "confidence": 100
+        },
+        {
+          "tag": "shoe",
+          "confidence": 100
+        },
+        {
+          "tag": "footwear",
+          "confidence": 100
+        },
+        {
+          "tag": "covering",
+          "confidence": 82.47
+        },
+        {
+          "tag": "body",
+          "confidence": 39.95
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,82.47,39.95",
+      "created_at": "2025-10-11T15:54:24.166286",
+      "primary_tags": "sandal,shoe,footwear,covering,body",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261209/products/fashion_apparel/sandals/sandals-1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "jeans-0",
+      "category": "jeans",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/jeans/jeans-0.jpg",
+      "description": "High-quality jeans product: jeans-0",
+      "price": 102.5,
+      "brand": "Brand_JEA",
+      "imagga_tags": [
+        {
+          "tag": "jean",
+          "confidence": 90.39
+        },
+        {
+          "tag": "trouser",
+          "confidence": 66.21
+        },
+        {
+          "tag": "garment",
+          "confidence": 65.69
+        },
+        {
+          "tag": "jeans",
+          "confidence": 59.22
+        },
+        {
+          "tag": "apparel",
+          "confidence": 56.08
+        }
+      ],
+      "confidence_scores": "90.39,66.21,65.69,59.22,56.08",
+      "created_at": "2025-10-11T15:54:24.167048",
+      "primary_tags": "jean,trouser,garment,jeans,apparel",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261210/products/fashion_apparel/jeans/jeans-0.jpg"
+    },
+    {
+      "id": 8,
+      "name": "jeans-1",
+      "category": "jeans",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/jeans/jeans-1.jpg",
+      "description": "High-quality jeans product: jeans-1",
+      "price": 110.0,
+      "brand": "Brand_JEA",
+      "imagga_tags": [
+        {
+          "tag": "jean",
+          "confidence": 100
+        },
+        {
+          "tag": "trouser",
+          "confidence": 100
+        },
+        {
+          "tag": "apparel",
+          "confidence": 100
+        },
+        {
+          "tag": "garment",
+          "confidence": 100
+        },
+        {
+          "tag": "clothing",
+          "confidence": 91.05
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,100.00,91.05",
+      "created_at": "2025-10-11T15:54:24.167074",
+      "primary_tags": "jean,trouser,apparel,garment,clothing",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261211/products/fashion_apparel/jeans/jeans-1.jpg"
+    },
+    {
+      "id": 9,
+      "name": "sneakers-0",
+      "category": "sneakers",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/sneakers/sneakers-0.jpg",
+      "description": "High-quality sneakers product: sneakers-0",
+      "price": 117.5,
+      "brand": "Brand_SNE",
+      "imagga_tags": [
+        {
+          "tag": "lace",
+          "confidence": 100
+        },
+        {
+          "tag": "shoe",
+          "confidence": 100
+        },
+        {
+          "tag": "footwear",
+          "confidence": 100
+        },
+        {
+          "tag": "shoes",
+          "confidence": 82.91
+        },
+        {
+          "tag": "leather",
+          "confidence": 81.05
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,82.91,81.05",
+      "created_at": "2025-10-11T15:54:24.167827",
+      "primary_tags": "lace,shoe,footwear,shoes,leather",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261213/products/fashion_apparel/sneakers/sneakers-0.jpg"
+    },
+    {
+      "id": 10,
+      "name": "sneakers-1",
+      "category": "sneakers",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/sneakers/sneakers-1.jpg",
+      "description": "High-quality sneakers product: sneakers-1",
+      "price": 125.0,
+      "brand": "Brand_SNE",
+      "imagga_tags": [
+        {
+          "tag": "running shoe",
+          "confidence": 100
+        },
+        {
+          "tag": "shoe",
+          "confidence": 100
+        },
+        {
+          "tag": "footwear",
+          "confidence": 100
+        },
+        {
+          "tag": "covering",
+          "confidence": 71.49
+        },
+        {
+          "tag": "shoes",
+          "confidence": 69.23
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,71.49,69.23",
+      "created_at": "2025-10-11T15:54:24.167853",
+      "primary_tags": "running shoe,shoe,footwear,covering,shoes",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261214/products/fashion_apparel/sneakers/sneakers-1.jpg"
+    },
+    {
+      "id": 11,
+      "name": "sneakers-2",
+      "category": "sneakers",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/sneakers/sneakers-2.jpg",
+      "description": "High-quality sneakers product: sneakers-2",
+      "price": 132.5,
+      "brand": "Brand_SNE",
+      "imagga_tags": [
+        {
+          "tag": "iron",
+          "confidence": 100
+        },
+        {
+          "tag": "home appliance",
+          "confidence": 100
+        },
+        {
+          "tag": "appliance",
+          "confidence": 92.25
+        },
+        {
+          "tag": "durables",
+          "confidence": 55.52
+        },
+        {
+          "tag": "consumer goods",
+          "confidence": 27.86
+        }
+      ],
+      "confidence_scores": "100.00,100.00,92.25,55.52,27.86",
+      "created_at": "2025-10-11T15:54:24.167871",
+      "primary_tags": "iron,home appliance,appliance,durables,consumer goods",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261215/products/fashion_apparel/sneakers/sneakers-2.jpg"
+    },
+    {
+      "id": 12,
+      "name": "heels-0",
+      "category": "heels",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/heels/heels-0.jpg",
+      "description": "High-quality heels product: heels-0",
+      "price": 140.0,
+      "brand": "Brand_HEE",
+      "imagga_tags": [
+        {
+          "tag": "ribbon",
+          "confidence": 49.64
+        },
+        {
+          "tag": "paper",
+          "confidence": 18.48
+        },
+        {
+          "tag": "3d",
+          "confidence": 17.05
+        },
+        {
+          "tag": "gift",
+          "confidence": 15.49
+        },
+        {
+          "tag": "object",
+          "confidence": 15.4
+        }
+      ],
+      "confidence_scores": "49.64,18.48,17.05,15.49,15.40",
+      "created_at": "2025-10-11T15:54:24.168967",
+      "primary_tags": "ribbon,paper,3d,gift,object",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261216/products/fashion_apparel/heels/heels-0.jpg"
+    },
+    {
+      "id": 13,
+      "name": "heels-1",
+      "category": "heels",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/heels/heels-1.jpg",
+      "description": "High-quality heels product: heels-1",
+      "price": 147.5,
+      "brand": "Brand_HEE",
+      "imagga_tags": [
+        {
+          "tag": "device",
+          "confidence": 28.89
+        },
+        {
+          "tag": "symbol",
+          "confidence": 16.15
+        },
+        {
+          "tag": "black",
+          "confidence": 15.1
+        },
+        {
+          "tag": "restraint",
+          "confidence": 14.77
+        },
+        {
+          "tag": "business",
+          "confidence": 13.97
+        }
+      ],
+      "confidence_scores": "28.89,16.15,15.10,14.77,13.97",
+      "created_at": "2025-10-11T15:54:24.168993",
+      "primary_tags": "device,symbol,black,restraint,business",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261217/products/fashion_apparel/heels/heels-1.jpg"
+    },
+    {
+      "id": 14,
+      "name": "handbags-0",
+      "category": "handbags",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/handbags/handbags-0.jpg",
+      "description": "High-quality handbags product: handbags-0",
+      "price": 155.0,
+      "brand": "Brand_HAN",
+      "imagga_tags": [
+        {
+          "tag": "bag",
+          "confidence": 100
+        },
+        {
+          "tag": "container",
+          "confidence": 71.41
+        },
+        {
+          "tag": "mailbag",
+          "confidence": 58.05
+        },
+        {
+          "tag": "leather",
+          "confidence": 52.61
+        },
+        {
+          "tag": "purse",
+          "confidence": 38.42
+        }
+      ],
+      "confidence_scores": "100.00,71.41,58.05,52.61,38.42",
+      "created_at": "2025-10-11T15:54:24.169766",
+      "primary_tags": "bag,container,mailbag,leather,purse",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261217/products/fashion_apparel/handbags/handbags-0.jpg"
+    },
+    {
+      "id": 15,
+      "name": "handbags-1",
+      "category": "handbags",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/handbags/handbags-1.jpg",
+      "description": "High-quality handbags product: handbags-1",
+      "price": 162.5,
+      "brand": "Brand_HAN",
+      "imagga_tags": [
+        {
+          "tag": "iron",
+          "confidence": 100
+        },
+        {
+          "tag": "home appliance",
+          "confidence": 100
+        },
+        {
+          "tag": "appliance",
+          "confidence": 90.44
+        },
+        {
+          "tag": "durables",
+          "confidence": 53.51
+        },
+        {
+          "tag": "consumer goods",
+          "confidence": 26.8
+        }
+      ],
+      "confidence_scores": "100.00,100.00,90.44,53.51,26.80",
+      "created_at": "2025-10-11T15:54:24.169790",
+      "primary_tags": "iron,home appliance,appliance,durables,consumer goods",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261218/products/fashion_apparel/handbags/handbags-1.jpg"
+    },
+    {
+      "id": 16,
+      "name": "handbags-2",
+      "category": "handbags",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/handbags/handbags-2.jpg",
+      "description": "High-quality handbags product: handbags-2",
+      "price": 170.0,
+      "brand": "Brand_HAN",
+      "imagga_tags": [
+        {
+          "tag": "bag",
+          "confidence": 100
+        },
+        {
+          "tag": "mailbag",
+          "confidence": 91.45
+        },
+        {
+          "tag": "container",
+          "confidence": 89.65
+        },
+        {
+          "tag": "purse",
+          "confidence": 47.03
+        },
+        {
+          "tag": "leather",
+          "confidence": 28.66
+        }
+      ],
+      "confidence_scores": "100.00,91.45,89.65,47.03,28.66",
+      "created_at": "2025-10-11T15:54:24.169806",
+      "primary_tags": "bag,mailbag,container,purse,leather",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261219/products/fashion_apparel/handbags/handbags-2.jpg"
+    },
+    {
+      "id": 17,
+      "name": "hats-0",
+      "category": "hats",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/hats/hats-0.jpg",
+      "description": "High-quality hats product: hats-0",
+      "price": 177.5,
+      "brand": "Brand_HAT",
+      "imagga_tags": [
+        {
+          "tag": "ribbon",
+          "confidence": 82.32
+        },
+        {
+          "tag": "hat",
+          "confidence": 49.13
+        },
+        {
+          "tag": "sombrero",
+          "confidence": 37.08
+        },
+        {
+          "tag": "headdress",
+          "confidence": 31.27
+        },
+        {
+          "tag": "clothing",
+          "confidence": 23.65
+        }
+      ],
+      "confidence_scores": "82.32,49.13,37.08,31.27,23.65",
+      "created_at": "2025-10-11T15:54:24.170708",
+      "primary_tags": "ribbon,hat,sombrero,headdress,clothing",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261220/products/fashion_apparel/hats/hats-0.jpg"
+    },
+    {
+      "id": 18,
+      "name": "hats-1",
+      "category": "hats",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/hats/hats-1.jpg",
+      "description": "High-quality hats product: hats-1",
+      "price": 185.0,
+      "brand": "Brand_HAT",
+      "imagga_tags": [
+        {
+          "tag": "headrest",
+          "confidence": 57.44
+        },
+        {
+          "tag": "device",
+          "confidence": 46.88
+        },
+        {
+          "tag": "rest",
+          "confidence": 43.31
+        },
+        {
+          "tag": "support",
+          "confidence": 36.01
+        },
+        {
+          "tag": "bag",
+          "confidence": 30.57
+        }
+      ],
+      "confidence_scores": "57.44,46.88,43.31,36.01,30.57",
+      "created_at": "2025-10-11T15:54:24.170760",
+      "primary_tags": "headrest,device,rest,support,bag",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261221/products/fashion_apparel/hats/hats-1.jpg"
+    },
+    {
+      "id": 19,
+      "name": "hats-2",
+      "category": "hats",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/hats/hats-2.jpg",
+      "description": "High-quality hats product: hats-2",
+      "price": 192.5,
+      "brand": "Brand_HAT",
+      "imagga_tags": [
+        {
+          "tag": "fist",
+          "confidence": 30.47
+        },
+        {
+          "tag": "hand",
+          "confidence": 24.98
+        },
+        {
+          "tag": "3d",
+          "confidence": 20.13
+        },
+        {
+          "tag": "baseball glove",
+          "confidence": 15.82
+        },
+        {
+          "tag": "man",
+          "confidence": 15.45
+        }
+      ],
+      "confidence_scores": "30.47,24.98,20.13,15.82,15.45",
+      "created_at": "2025-10-11T15:54:24.170782",
+      "primary_tags": "fist,hand,3d,baseball glove,man",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261222/products/fashion_apparel/hats/hats-2.jpg"
+    },
+    {
+      "id": 20,
+      "name": "formal wear-0",
+      "category": "formal_wear",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/formal_wear/formal_wear-0.jpg",
+      "description": "High-quality formal wear product: formal wear-0",
+      "price": 200.0,
+      "brand": "Brand_FOR",
+      "imagga_tags": [
+        {
+          "tag": "garment",
+          "confidence": 81.23
+        },
+        {
+          "tag": "suit",
+          "confidence": 63.34
+        },
+        {
+          "tag": "clothing",
+          "confidence": 62.3
+        },
+        {
+          "tag": "cardigan",
+          "confidence": 56.35
+        },
+        {
+          "tag": "sweater",
+          "confidence": 45.89
+        }
+      ],
+      "confidence_scores": "81.23,63.34,62.30,56.35,45.89",
+      "created_at": "2025-10-11T15:54:24.171636",
+      "primary_tags": "garment,suit,clothing,cardigan,sweater",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261224/products/fashion_apparel/formal_wear/formal_wear-0.jpg"
+    },
+    {
+      "id": 21,
+      "name": "formal wear-1",
+      "category": "formal_wear",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/formal_wear/formal_wear-1.jpg",
+      "description": "High-quality formal wear product: formal wear-1",
+      "price": 207.5,
+      "brand": "Brand_FOR",
+      "imagga_tags": [
+        {
+          "tag": "suit",
+          "confidence": 88.64
+        },
+        {
+          "tag": "garment",
+          "confidence": 85.84
+        },
+        {
+          "tag": "clothing",
+          "confidence": 69.36
+        },
+        {
+          "tag": "jean",
+          "confidence": 58.89
+        },
+        {
+          "tag": "businessman",
+          "confidence": 50.35
+        }
+      ],
+      "confidence_scores": "88.64,85.84,69.36,58.89,50.35",
+      "created_at": "2025-10-11T15:54:24.171664",
+      "primary_tags": "suit,garment,clothing,jean,businessman",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261225/products/fashion_apparel/formal_wear/formal_wear-1.jpg"
+    },
+    {
+      "id": 22,
+      "name": "dresses-0",
+      "category": "dresses",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/dresses/dresses-0.jpg",
+      "description": "High-quality dresses product: dresses-0",
+      "price": 215.0,
+      "brand": "Brand_DRE",
+      "imagga_tags": [
+        {
+          "tag": "maillot",
+          "confidence": 86.33
+        },
+        {
+          "tag": "clothing",
+          "confidence": 45.99
+        },
+        {
+          "tag": "sexy",
+          "confidence": 41.84
+        },
+        {
+          "tag": "model",
+          "confidence": 39.74
+        },
+        {
+          "tag": "garment",
+          "confidence": 38.84
+        }
+      ],
+      "confidence_scores": "86.33,45.99,41.84,39.74,38.84",
+      "created_at": "2025-10-11T15:54:24.172511",
+      "primary_tags": "maillot,clothing,sexy,model,garment",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261226/products/fashion_apparel/dresses/dresses-0.jpg"
+    },
+    {
+      "id": 23,
+      "name": "dresses-1",
+      "category": "dresses",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/dresses/dresses-1.jpg",
+      "description": "High-quality dresses product: dresses-1",
+      "price": 222.5,
+      "brand": "Brand_DRE",
+      "imagga_tags": [
+        {
+          "tag": "jersey",
+          "confidence": 70.65
+        },
+        {
+          "tag": "shirt",
+          "confidence": 68.5
+        },
+        {
+          "tag": "garment",
+          "confidence": 44.29
+        },
+        {
+          "tag": "clothing",
+          "confidence": 41.65
+        },
+        {
+          "tag": "person",
+          "confidence": 37.35
+        }
+      ],
+      "confidence_scores": "70.65,68.50,44.29,41.65,37.35",
+      "created_at": "2025-10-11T15:54:24.172537",
+      "primary_tags": "jersey,shirt,garment,clothing,person",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261227/products/fashion_apparel/dresses/dresses-1.jpg"
+    },
+    {
+      "id": 24,
+      "name": "boots-0",
+      "category": "boots",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/boots/boots-0.jpg",
+      "description": "High-quality boots product: boots-0",
+      "price": 230.0,
+      "brand": "Brand_BOO",
+      "imagga_tags": [
+        {
+          "tag": "lace",
+          "confidence": 100
+        },
+        {
+          "tag": "cord",
+          "confidence": 100
+        },
+        {
+          "tag": "leather",
+          "confidence": 86.05
+        },
+        {
+          "tag": "shoe",
+          "confidence": 79.71
+        },
+        {
+          "tag": "line",
+          "confidence": 79.48
+        }
+      ],
+      "confidence_scores": "100.00,100.00,86.05,79.71,79.48",
+      "created_at": "2025-10-11T15:54:24.174733",
+      "primary_tags": "lace,cord,leather,shoe,line",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261228/products/fashion_apparel/boots/boots-0.jpg"
+    },
+    {
+      "id": 25,
+      "name": "backpacks-0",
+      "category": "backpacks",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/backpacks/backpacks-0.jpg",
+      "description": "High-quality backpacks product: backpacks-0",
+      "price": 237.5,
+      "brand": "Brand_BAC",
+      "imagga_tags": [
+        {
+          "tag": "backpack",
+          "confidence": 100
+        },
+        {
+          "tag": "bag",
+          "confidence": 100
+        },
+        {
+          "tag": "container",
+          "confidence": 88.46
+        },
+        {
+          "tag": "leather",
+          "confidence": 40.74
+        },
+        {
+          "tag": "fashion",
+          "confidence": 28.65
+        }
+      ],
+      "confidence_scores": "100.00,100.00,88.46,40.74,28.65",
+      "created_at": "2025-10-11T15:54:24.175499",
+      "primary_tags": "backpack,bag,container,leather,fashion",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261230/products/fashion_apparel/backpacks/backpacks-0.jpg"
+    },
+    {
+      "id": 26,
+      "name": "accessories-0",
+      "category": "accessories",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/accessories/accessories-0.jpg",
+      "description": "High-quality accessories product: accessories-0",
+      "price": 245.0,
+      "brand": "Brand_ACC",
+      "imagga_tags": [
+        {
+          "tag": "necklace",
+          "confidence": 100
+        },
+        {
+          "tag": "jewelry",
+          "confidence": 100
+        },
+        {
+          "tag": "adornment",
+          "confidence": 100
+        },
+        {
+          "tag": "decoration",
+          "confidence": 79.78
+        },
+        {
+          "tag": "pendant",
+          "confidence": 66.36
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,79.78,66.36",
+      "created_at": "2025-10-11T15:54:24.176279",
+      "primary_tags": "necklace,jewelry,adornment,decoration,pendant",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261231/products/fashion_apparel/accessories/accessories-0.jpg"
+    },
+    {
+      "id": 27,
+      "name": "accessories-1",
+      "category": "accessories",
+      "main_category": "fashion_apparel",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/fashion_apparel/accessories/accessories-1.jpg",
+      "description": "High-quality accessories product: accessories-1",
+      "price": 252.5,
+      "brand": "Brand_ACC",
+      "imagga_tags": [
+        {
+          "tag": "food",
+          "confidence": 35.0
+        },
+        {
+          "tag": "dessert",
+          "confidence": 26.55
+        },
+        {
+          "tag": "plate",
+          "confidence": 24.6
+        },
+        {
+          "tag": "sweet",
+          "confidence": 23.73
+        },
+        {
+          "tag": "candy",
+          "confidence": 23.38
+        }
+      ],
+      "confidence_scores": "35.00,26.55,24.60,23.73,23.38",
+      "created_at": "2025-10-11T15:54:24.176305",
+      "primary_tags": "food,dessert,plate,sweet,candy",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261232/products/fashion_apparel/accessories/accessories-1.jpg"
+    },
+    {
+      "id": 28,
+      "name": "lighting-0",
+      "category": "lighting",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/lighting/lighting-0.jpg",
+      "description": "High-quality lighting product: lighting-0",
+      "price": 260.0,
+      "brand": "Brand_LIG",
+      "imagga_tags": [
+        {
+          "tag": "lamp",
+          "confidence": 87.68
+        },
+        {
+          "tag": "lampshade",
+          "confidence": 77.41
+        },
+        {
+          "tag": "shade",
+          "confidence": 67.66
+        },
+        {
+          "tag": "table lamp",
+          "confidence": 66.58
+        },
+        {
+          "tag": "furniture",
+          "confidence": 63.1
+        }
+      ],
+      "confidence_scores": "87.68,77.41,67.66,66.58,63.10",
+      "created_at": "2025-10-11T15:54:24.177877",
+      "primary_tags": "lamp,lampshade,shade,table lamp,furniture",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261233/products/home_kitchen/lighting/lighting-0.jpg"
+    },
+    {
+      "id": 29,
+      "name": "lighting-1",
+      "category": "lighting",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/lighting/lighting-1.jpg",
+      "description": "High-quality lighting product: lighting-1",
+      "price": 267.5,
+      "brand": "Brand_LIG",
+      "imagga_tags": [
+        {
+          "tag": "bottle",
+          "confidence": 68.88
+        },
+        {
+          "tag": "wine bottle",
+          "confidence": 49.78
+        },
+        {
+          "tag": "vessel",
+          "confidence": 39.12
+        },
+        {
+          "tag": "wine",
+          "confidence": 30.45
+        },
+        {
+          "tag": "alcohol",
+          "confidence": 30.26
+        }
+      ],
+      "confidence_scores": "68.88,49.78,39.12,30.45,30.26",
+      "created_at": "2025-10-11T15:54:24.177902",
+      "primary_tags": "bottle,wine bottle,vessel,wine,alcohol",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261234/products/home_kitchen/lighting/lighting-1.jpg"
+    },
+    {
+      "id": 30,
+      "name": "tables-0",
+      "category": "tables",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/tables/tables-0.jpg",
+      "description": "High-quality tables product: tables-0",
+      "price": 275.0,
+      "brand": "Brand_TAB",
+      "imagga_tags": [
+        {
+          "tag": "dining table",
+          "confidence": 100
+        },
+        {
+          "tag": "table",
+          "confidence": 100
+        },
+        {
+          "tag": "furniture",
+          "confidence": 100
+        },
+        {
+          "tag": "interior",
+          "confidence": 61.9
+        },
+        {
+          "tag": "room",
+          "confidence": 51.05
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,61.90,51.05",
+      "created_at": "2025-10-11T15:54:24.178649",
+      "primary_tags": "dining table,table,furniture,interior,room",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261235/products/home_kitchen/tables/tables-0.jpg"
+    },
+    {
+      "id": 31,
+      "name": "tables-1",
+      "category": "tables",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/tables/tables-1.jpg",
+      "description": "High-quality tables product: tables-1",
+      "price": 282.5,
+      "brand": "Brand_TAB",
+      "imagga_tags": [
+        {
+          "tag": "interior",
+          "confidence": 76.12
+        },
+        {
+          "tag": "sliding door",
+          "confidence": 73.02
+        },
+        {
+          "tag": "room",
+          "confidence": 71.82
+        },
+        {
+          "tag": "door",
+          "confidence": 68.5
+        },
+        {
+          "tag": "home",
+          "confidence": 54.27
+        }
+      ],
+      "confidence_scores": "76.12,73.02,71.82,68.50,54.27",
+      "created_at": "2025-10-11T15:54:24.178679",
+      "primary_tags": "interior,sliding door,room,door,home",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261237/products/home_kitchen/tables/tables-1.jpg"
+    },
+    {
+      "id": 32,
+      "name": "kitchen appliances-0",
+      "category": "kitchen_appliances",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/kitchen_appliances/kitchen_appliances-0.jpg",
+      "description": "High-quality kitchen appliances product: kitchen appliances-0",
+      "price": 290.0,
+      "brand": "Brand_KIT",
+      "imagga_tags": [
+        {
+          "tag": "kitchen appliance",
+          "confidence": 56.8
+        },
+        {
+          "tag": "home appliance",
+          "confidence": 42.72
+        },
+        {
+          "tag": "espresso maker",
+          "confidence": 38.11
+        },
+        {
+          "tag": "toaster",
+          "confidence": 37.43
+        },
+        {
+          "tag": "crock pot",
+          "confidence": 36.91
+        }
+      ],
+      "confidence_scores": "56.80,42.72,38.11,37.43,36.91",
+      "created_at": "2025-10-11T15:54:24.179391",
+      "primary_tags": "kitchen appliance,home appliance,espresso maker,toaster,crock pot",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261237/products/home_kitchen/kitchen_appliances/kitchen_appliances-0.jpg"
+    },
+    {
+      "id": 33,
+      "name": "kitchen appliances-1",
+      "category": "kitchen_appliances",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/kitchen_appliances/kitchen_appliances-1.jpg",
+      "description": "High-quality kitchen appliances product: kitchen appliances-1",
+      "price": 297.5,
+      "brand": "Brand_KIT",
+      "imagga_tags": [
+        {
+          "tag": "stove",
+          "confidence": 100
+        },
+        {
+          "tag": "kitchen",
+          "confidence": 100
+        },
+        {
+          "tag": "room",
+          "confidence": 100
+        },
+        {
+          "tag": "interior",
+          "confidence": 83.27
+        },
+        {
+          "tag": "home",
+          "confidence": 69.51
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,83.27,69.51",
+      "created_at": "2025-10-11T15:54:24.179414",
+      "primary_tags": "stove,kitchen,room,interior,home",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261238/products/home_kitchen/kitchen_appliances/kitchen_appliances-1.jpg"
+    },
+    {
+      "id": 34,
+      "name": "sofas-0",
+      "category": "sofas",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/sofas/sofas-0.jpg",
+      "description": "High-quality sofas product: sofas-0",
+      "price": 305.0,
+      "brand": "Brand_SOF",
+      "imagga_tags": [
+        {
+          "tag": "studio couch",
+          "confidence": 100
+        },
+        {
+          "tag": "furniture",
+          "confidence": 100
+        },
+        {
+          "tag": "sofa",
+          "confidence": 100
+        },
+        {
+          "tag": "convertible",
+          "confidence": 98.28
+        },
+        {
+          "tag": "seat",
+          "confidence": 93.8
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,98.28,93.80",
+      "created_at": "2025-10-11T15:54:24.180130",
+      "primary_tags": "studio couch,furniture,sofa,convertible,seat",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261239/products/home_kitchen/sofas/sofas-0.jpg"
+    },
+    {
+      "id": 35,
+      "name": "sofas-1",
+      "category": "sofas",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/sofas/sofas-1.jpg",
+      "description": "High-quality sofas product: sofas-1",
+      "price": 312.5,
+      "brand": "Brand_SOF",
+      "imagga_tags": [
+        {
+          "tag": "leather",
+          "confidence": 100
+        },
+        {
+          "tag": "animal skin",
+          "confidence": 100
+        },
+        {
+          "tag": "sofa",
+          "confidence": 82.43
+        },
+        {
+          "tag": "furniture",
+          "confidence": 78.81
+        },
+        {
+          "tag": "interior",
+          "confidence": 71.81
+        }
+      ],
+      "confidence_scores": "100.00,100.00,82.43,78.81,71.81",
+      "created_at": "2025-10-11T15:54:24.180158",
+      "primary_tags": "leather,animal skin,sofa,furniture,interior",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261240/products/home_kitchen/sofas/sofas-1.jpg"
+    },
+    {
+      "id": 36,
+      "name": "cookware-0",
+      "category": "cookware",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/cookware/cookware-0.jpg",
+      "description": "High-quality cookware product: cookware-0",
+      "price": 320.0,
+      "brand": "Brand_COO",
+      "imagga_tags": [
+        {
+          "tag": "pan",
+          "confidence": 100
+        },
+        {
+          "tag": "frying pan",
+          "confidence": 90.67
+        },
+        {
+          "tag": "cooking utensil",
+          "confidence": 60.93
+        },
+        {
+          "tag": "kitchen utensil",
+          "confidence": 42.52
+        },
+        {
+          "tag": "utensil",
+          "confidence": 36.53
+        }
+      ],
+      "confidence_scores": "100.00,90.67,60.93,42.52,36.53",
+      "created_at": "2025-10-11T15:54:24.180822",
+      "primary_tags": "pan,frying pan,cooking utensil,kitchen utensil,utensil",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261241/products/home_kitchen/cookware/cookware-0.jpg"
+    },
+    {
+      "id": 37,
+      "name": "chairs-0",
+      "category": "chairs",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/chairs/chairs-0.jpg",
+      "description": "High-quality chairs product: chairs-0",
+      "price": 327.5,
+      "brand": "Brand_CHA",
+      "imagga_tags": [
+        {
+          "tag": "stool",
+          "confidence": 100
+        },
+        {
+          "tag": "seat",
+          "confidence": 100
+        },
+        {
+          "tag": "furniture",
+          "confidence": 90.22
+        },
+        {
+          "tag": "furnishing",
+          "confidence": 36.18
+        },
+        {
+          "tag": "wood",
+          "confidence": 34.16
+        }
+      ],
+      "confidence_scores": "100.00,100.00,90.22,36.18,34.16",
+      "created_at": "2025-10-11T15:54:24.181502",
+      "primary_tags": "stool,seat,furniture,furnishing,wood",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261242/products/home_kitchen/chairs/chairs-0.jpg"
+    },
+    {
+      "id": 38,
+      "name": "chairs-1",
+      "category": "chairs",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/chairs/chairs-1.jpg",
+      "description": "High-quality chairs product: chairs-1",
+      "price": 335.0,
+      "brand": "Brand_CHA",
+      "imagga_tags": [
+        {
+          "tag": "seat",
+          "confidence": 81.19
+        },
+        {
+          "tag": "interior",
+          "confidence": 67.31
+        },
+        {
+          "tag": "furniture",
+          "confidence": 65.42
+        },
+        {
+          "tag": "room",
+          "confidence": 62.26
+        },
+        {
+          "tag": "chair",
+          "confidence": 55.66
+        }
+      ],
+      "confidence_scores": "81.19,67.31,65.42,62.26,55.66",
+      "created_at": "2025-10-11T15:54:24.181523",
+      "primary_tags": "seat,interior,furniture,room,chair",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261243/products/home_kitchen/chairs/chairs-1.jpg"
+    },
+    {
+      "id": 39,
+      "name": "bedding-0",
+      "category": "bedding",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/bedding/bedding-0.jpg",
+      "description": "High-quality bedding product: bedding-0",
+      "price": 342.5,
+      "brand": "Brand_BED",
+      "imagga_tags": [
+        {
+          "tag": "bedroom",
+          "confidence": 100
+        },
+        {
+          "tag": "room",
+          "confidence": 100
+        },
+        {
+          "tag": "interior",
+          "confidence": 76.17
+        },
+        {
+          "tag": "furniture",
+          "confidence": 71.82
+        },
+        {
+          "tag": "bed",
+          "confidence": 70.37
+        }
+      ],
+      "confidence_scores": "100.00,100.00,76.17,71.82,70.37",
+      "created_at": "2025-10-11T15:54:24.182209",
+      "primary_tags": "bedroom,room,interior,furniture,bed",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261244/products/home_kitchen/bedding/bedding-0.jpg"
+    },
+    {
+      "id": 40,
+      "name": "bedding-1",
+      "category": "bedding",
+      "main_category": "home_kitchen",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/home_kitchen/bedding/bedding-1.jpg",
+      "description": "High-quality bedding product: bedding-1",
+      "price": 350.0,
+      "brand": "Brand_BED",
+      "imagga_tags": [
+        {
+          "tag": "room",
+          "confidence": 100
+        },
+        {
+          "tag": "bedroom",
+          "confidence": 97.78
+        },
+        {
+          "tag": "furniture",
+          "confidence": 77.35
+        },
+        {
+          "tag": "interior",
+          "confidence": 77.19
+        },
+        {
+          "tag": "quilt",
+          "confidence": 66.42
+        }
+      ],
+      "confidence_scores": "100.00,97.78,77.35,77.19,66.42",
+      "created_at": "2025-10-11T15:54:24.182231",
+      "primary_tags": "room,bedroom,furniture,interior,quilt",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261245/products/home_kitchen/bedding/bedding-1.jpg"
+    },
+    {
+      "id": 41,
+      "name": "tablets-0",
+      "category": "tablets",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/tablets/tablets-0.jpg",
+      "description": "High-quality tablets product: tablets-0",
+      "price": 357.5,
+      "brand": "Brand_TAB",
+      "imagga_tags": [
+        {
+          "tag": "laptop",
+          "confidence": 65.68
+        },
+        {
+          "tag": "computer",
+          "confidence": 45.0
+        },
+        {
+          "tag": "portable computer",
+          "confidence": 43.6
+        },
+        {
+          "tag": "technology",
+          "confidence": 39.36
+        },
+        {
+          "tag": "notebook",
+          "confidence": 34.94
+        }
+      ],
+      "confidence_scores": "65.68,45.00,43.60,39.36,34.94",
+      "created_at": "2025-10-11T15:54:24.183777",
+      "primary_tags": "laptop,computer,portable computer,technology,notebook",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261246/products/electronics/tablets/tablets-0.jpg"
+    },
+    {
+      "id": 42,
+      "name": "tablets-1",
+      "category": "tablets",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/tablets/tablets-1.jpg",
+      "description": "High-quality tablets product: tablets-1",
+      "price": 365.0,
+      "brand": "Brand_TAB",
+      "imagga_tags": [
+        {
+          "tag": "notebook",
+          "confidence": 80.96
+        },
+        {
+          "tag": "laptop",
+          "confidence": 68.73
+        },
+        {
+          "tag": "computer",
+          "confidence": 50.37
+        },
+        {
+          "tag": "office",
+          "confidence": 40.22
+        },
+        {
+          "tag": "business",
+          "confidence": 40.14
+        }
+      ],
+      "confidence_scores": "80.96,68.73,50.37,40.22,40.14",
+      "created_at": "2025-10-11T15:54:24.183801",
+      "primary_tags": "notebook,laptop,computer,office,business",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261247/products/electronics/tablets/tablets-1.jpg"
+    },
+    {
+      "id": 43,
+      "name": "smartwatches-0",
+      "category": "smartwatches",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/smartwatches/smartwatches-0.jpg",
+      "description": "High-quality smartwatches product: smartwatches-0",
+      "price": 372.5,
+      "brand": "Brand_SMA",
+      "imagga_tags": [
+        {
+          "tag": "3d",
+          "confidence": 34.08
+        },
+        {
+          "tag": "japan",
+          "confidence": 33.16
+        },
+        {
+          "tag": "cartoon",
+          "confidence": 21.4
+        },
+        {
+          "tag": "icon",
+          "confidence": 21.37
+        },
+        {
+          "tag": "symbol",
+          "confidence": 17.5
+        }
+      ],
+      "confidence_scores": "34.08,33.16,21.40,21.37,17.50",
+      "created_at": "2025-10-11T15:54:24.184526",
+      "primary_tags": "3d,japan,cartoon,icon,symbol",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261248/products/electronics/smartwatches/smartwatches-0.jpg"
+    },
+    {
+      "id": 44,
+      "name": "smartwatches-1",
+      "category": "smartwatches",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/smartwatches/smartwatches-1.jpg",
+      "description": "High-quality smartwatches product: smartwatches-1",
+      "price": 380.0,
+      "brand": "Brand_SMA",
+      "imagga_tags": [
+        {
+          "tag": "device",
+          "confidence": 100
+        },
+        {
+          "tag": "remote control",
+          "confidence": 94.09
+        },
+        {
+          "tag": "control",
+          "confidence": 34.79
+        },
+        {
+          "tag": "telephone",
+          "confidence": 28.64
+        },
+        {
+          "tag": "keypad",
+          "confidence": 27.22
+        }
+      ],
+      "confidence_scores": "100.00,94.09,34.79,28.64,27.22",
+      "created_at": "2025-10-11T15:54:24.184549",
+      "primary_tags": "device,remote control,control,telephone,keypad",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261249/products/electronics/smartwatches/smartwatches-1.jpg"
+    },
+    {
+      "id": 45,
+      "name": "mouse-0",
+      "category": "mouse",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/mouse/mouse-0.jpg",
+      "description": "High-quality mouse product: mouse-0",
+      "price": 387.5,
+      "brand": "Brand_MOU",
+      "imagga_tags": [
+        {
+          "tag": "mouse",
+          "confidence": 100
+        },
+        {
+          "tag": "electronic device",
+          "confidence": 100
+        },
+        {
+          "tag": "device",
+          "confidence": 100
+        },
+        {
+          "tag": "computer",
+          "confidence": 71.54
+        },
+        {
+          "tag": "optical",
+          "confidence": 63.33
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,71.54,63.33",
+      "created_at": "2025-10-11T15:54:24.185348",
+      "primary_tags": "mouse,electronic device,device,computer,optical",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261249/products/electronics/mouse/mouse-0.jpg"
+    },
+    {
+      "id": 46,
+      "name": "mouse-1",
+      "category": "mouse",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/mouse/mouse-1.jpg",
+      "description": "High-quality mouse product: mouse-1",
+      "price": 395.0,
+      "brand": "Brand_MOU",
+      "imagga_tags": [
+        {
+          "tag": "mouse",
+          "confidence": 100
+        },
+        {
+          "tag": "electronic device",
+          "confidence": 100
+        },
+        {
+          "tag": "device",
+          "confidence": 100
+        },
+        {
+          "tag": "computer",
+          "confidence": 44.16
+        },
+        {
+          "tag": "technology",
+          "confidence": 42.36
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,44.16,42.36",
+      "created_at": "2025-10-11T15:54:24.185371",
+      "primary_tags": "mouse,electronic device,device,computer,technology",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261250/products/electronics/mouse/mouse-1.jpg"
+    },
+    {
+      "id": 47,
+      "name": "laptops-0",
+      "category": "laptops",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/laptops/laptops-0.jpg",
+      "description": "High-quality laptops product: laptops-0",
+      "price": 402.5,
+      "brand": "Brand_LAP",
+      "imagga_tags": [
+        {
+          "tag": "laptop",
+          "confidence": 100
+        },
+        {
+          "tag": "notebook",
+          "confidence": 100
+        },
+        {
+          "tag": "portable computer",
+          "confidence": 100
+        },
+        {
+          "tag": "personal computer",
+          "confidence": 100
+        },
+        {
+          "tag": "computer",
+          "confidence": 100
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,100.00,100.00",
+      "created_at": "2025-10-11T15:54:24.186093",
+      "primary_tags": "laptop,notebook,portable computer,personal computer,computer",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261251/products/electronics/laptops/laptops-0.jpg"
+    },
+    {
+      "id": 48,
+      "name": "laptops-1",
+      "category": "laptops",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/laptops/laptops-1.jpg",
+      "description": "High-quality laptops product: laptops-1",
+      "price": 410.0,
+      "brand": "Brand_LAP",
+      "imagga_tags": [
+        {
+          "tag": "laptop",
+          "confidence": 100
+        },
+        {
+          "tag": "portable computer",
+          "confidence": 67.95
+        },
+        {
+          "tag": "computer",
+          "confidence": 54.02
+        },
+        {
+          "tag": "personal computer",
+          "confidence": 52.02
+        },
+        {
+          "tag": "notebook",
+          "confidence": 51.12
+        }
+      ],
+      "confidence_scores": "100,67.95,54.02,52.02,51.12",
+      "created_at": "2025-10-11T15:54:24.186114",
+      "primary_tags": "laptop,portable computer,computer,personal computer,notebook",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261484/laptop-1_nirwzy.jpg"
+    },
+    {
+      "id": 49,
+      "name": "smartphones-0",
+      "category": "smartphones",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/smartphones/smartphones-0.jpg",
+      "description": "High-quality smartphones product: smartphones-0",
+      "price": 417.5,
+      "brand": "Brand_SMA",
+      "imagga_tags": [
+        {
+          "tag": "stereo",
+          "confidence": 100
+        },
+        {
+          "tag": "audio system",
+          "confidence": 60.33
+        },
+        {
+          "tag": "technology",
+          "confidence": 42.35
+        },
+        {
+          "tag": "hand",
+          "confidence": 40.3
+        },
+        {
+          "tag": "communication",
+          "confidence": 38.67
+        }
+      ],
+      "confidence_scores": "100.00,60.33,42.35,40.30,38.67",
+      "created_at": "2025-10-11T15:54:24.186840",
+      "primary_tags": "stereo,audio system,technology,hand,communication",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261253/products/electronics/smartphones/smartphones-0.jpg"
+    },
+    {
+      "id": 50,
+      "name": "smartphones-1",
+      "category": "smartphones",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/smartphones/smartphones-1.jpg",
+      "description": "High-quality smartphones product: smartphones-1",
+      "price": 425.0,
+      "brand": "Brand_SMA",
+      "imagga_tags": [
+        {
+          "tag": "device",
+          "confidence": 94.3
+        },
+        {
+          "tag": "remote control",
+          "confidence": 92.97
+        },
+        {
+          "tag": "telephone",
+          "confidence": 43.96
+        },
+        {
+          "tag": "technology",
+          "confidence": 43.84
+        },
+        {
+          "tag": "hand",
+          "confidence": 41.06
+        }
+      ],
+      "confidence_scores": "94.30,92.97,43.96,43.84,41.06",
+      "created_at": "2025-10-11T15:54:24.186861",
+      "primary_tags": "device,remote control,telephone,technology,hand",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261254/products/electronics/smartphones/smartphones-1.jpg"
+    },
+    {
+      "id": 51,
+      "name": "power banks-0",
+      "category": "power_banks",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/power_banks/power_banks-0.jpg",
+      "description": "High-quality power banks product: power banks-0",
+      "price": 432.5,
+      "brand": "Brand_POW",
+      "imagga_tags": [
+        {
+          "tag": "device",
+          "confidence": 61.37
+        },
+        {
+          "tag": "remote control",
+          "confidence": 40.57
+        },
+        {
+          "tag": "money",
+          "confidence": 40.03
+        },
+        {
+          "tag": "business",
+          "confidence": 31.62
+        },
+        {
+          "tag": "finance",
+          "confidence": 31.29
+        }
+      ],
+      "confidence_scores": "61.37,40.57,40.03,31.62,31.29",
+      "created_at": "2025-10-11T15:54:24.187593",
+      "primary_tags": "device,remote control,money,business,finance",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261255/products/electronics/power_banks/power_banks-0.jpg"
+    },
+    {
+      "id": 52,
+      "name": "keyboards-0",
+      "category": "keyboards",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/keyboards/keyboards-0.jpg",
+      "description": "High-quality keyboards product: keyboards-0",
+      "price": 440.0,
+      "brand": "Brand_KEY",
+      "imagga_tags": [
+        {
+          "tag": "computer keyboard",
+          "confidence": 100
+        },
+        {
+          "tag": "keyboard",
+          "confidence": 100
+        },
+        {
+          "tag": "device",
+          "confidence": 95.59
+        },
+        {
+          "tag": "data input device",
+          "confidence": 95.45
+        },
+        {
+          "tag": "key",
+          "confidence": 80.3
+        }
+      ],
+      "confidence_scores": "100.00,100.00,95.59,95.45,80.30",
+      "created_at": "2025-10-11T15:54:24.188296",
+      "primary_tags": "computer keyboard,keyboard,device,data input device,key",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261256/products/electronics/keyboards/keyboards-0.jpg"
+    },
+    {
+      "id": 53,
+      "name": "keyboards-1",
+      "category": "keyboards",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/keyboards/keyboards-1.jpg",
+      "description": "High-quality keyboards product: keyboards-1",
+      "price": 447.5,
+      "brand": "Brand_KEY",
+      "imagga_tags": [
+        {
+          "tag": "computer keyboard",
+          "confidence": 100
+        },
+        {
+          "tag": "keyboard",
+          "confidence": 100
+        },
+        {
+          "tag": "device",
+          "confidence": 95.06
+        },
+        {
+          "tag": "data input device",
+          "confidence": 84.55
+        },
+        {
+          "tag": "key",
+          "confidence": 74.12
+        }
+      ],
+      "confidence_scores": "100.00,100.00,95.06,84.55,74.12",
+      "created_at": "2025-10-11T15:54:24.188316",
+      "primary_tags": "computer keyboard,keyboard,device,data input device,key",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261257/products/electronics/keyboards/keyboards-1.jpg"
+    },
+    {
+      "id": 54,
+      "name": "headphones-0",
+      "category": "headphones",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/headphones/headphones-0.jpg",
+      "description": "High-quality headphones product: headphones-0",
+      "price": 455.0,
+      "brand": "Brand_HEA",
+      "imagga_tags": [
+        {
+          "tag": "device",
+          "confidence": 53.43
+        },
+        {
+          "tag": "mouse",
+          "confidence": 40.18
+        },
+        {
+          "tag": "push button",
+          "confidence": 37.69
+        },
+        {
+          "tag": "headset",
+          "confidence": 33.99
+        },
+        {
+          "tag": "technology",
+          "confidence": 32.63
+        }
+      ],
+      "confidence_scores": "53.43,40.18,37.69,33.99,32.63",
+      "created_at": "2025-10-11T15:54:24.189117",
+      "primary_tags": "device,mouse,push button,headset,technology",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261258/products/electronics/headphones/headphones-0.jpg"
+    },
+    {
+      "id": 55,
+      "name": "headphones-1",
+      "category": "headphones",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/headphones/headphones-1.jpg",
+      "description": "High-quality headphones product: headphones-1",
+      "price": 462.5,
+      "brand": "Brand_HEA",
+      "imagga_tags": [
+        {
+          "tag": "headset",
+          "confidence": 100
+        },
+        {
+          "tag": "equipment",
+          "confidence": 34.24
+        },
+        {
+          "tag": "3d",
+          "confidence": 31.77
+        },
+        {
+          "tag": "technology",
+          "confidence": 24.51
+        },
+        {
+          "tag": "music",
+          "confidence": 21.69
+        }
+      ],
+      "confidence_scores": "100.00,34.24,31.77,24.51,21.69",
+      "created_at": "2025-10-11T15:54:24.189145",
+      "primary_tags": "headset,equipment,3d,technology,music",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261258/products/electronics/headphones/headphones-1.jpg"
+    },
+    {
+      "id": 56,
+      "name": "gaming consoles-0",
+      "category": "gaming_consoles",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/gaming_consoles/gaming_consoles-0.jpg",
+      "description": "High-quality gaming consoles product: gaming consoles-0",
+      "price": 470.0,
+      "brand": "Brand_GAM",
+      "imagga_tags": [
+        {
+          "tag": "device",
+          "confidence": 23.34
+        },
+        {
+          "tag": "glass",
+          "confidence": 20.44
+        },
+        {
+          "tag": "object",
+          "confidence": 19.78
+        },
+        {
+          "tag": "equipment",
+          "confidence": 18.02
+        },
+        {
+          "tag": "3d",
+          "confidence": 17.03
+        }
+      ],
+      "confidence_scores": "23.34,20.44,19.78,18.02,17.03",
+      "created_at": "2025-10-11T15:54:24.189882",
+      "primary_tags": "device,glass,object,equipment,3d",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261259/products/electronics/gaming_consoles/gaming_consoles-0.jpg"
+    },
+    {
+      "id": 57,
+      "name": "gaming consoles-1",
+      "category": "gaming_consoles",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/gaming_consoles/gaming_consoles-1.jpg",
+      "description": "High-quality gaming consoles product: gaming consoles-1",
+      "price": 477.5,
+      "brand": "Brand_GAM",
+      "imagga_tags": [
+        {
+          "tag": "joystick",
+          "confidence": 100
+        },
+        {
+          "tag": "data input device",
+          "confidence": 100
+        },
+        {
+          "tag": "control",
+          "confidence": 100
+        },
+        {
+          "tag": "peripheral",
+          "confidence": 100
+        },
+        {
+          "tag": "mechanism",
+          "confidence": 100
+        }
+      ],
+      "confidence_scores": "100.00,100.00,100.00,100.00,100.00",
+      "created_at": "2025-10-11T15:54:24.189906",
+      "primary_tags": "joystick,data input device,control,peripheral,mechanism",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261260/products/electronics/gaming_consoles/gaming_consoles-1.jpg"
+    },
+    {
+      "id": 58,
+      "name": "cameras-0",
+      "category": "cameras",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/cameras/cameras-0.jpg",
+      "description": "High-quality cameras product: cameras-0",
+      "price": 485.0,
+      "brand": "Brand_CAM",
+      "imagga_tags": [
+        {
+          "tag": "camera",
+          "confidence": 100
+        },
+        {
+          "tag": "photographer",
+          "confidence": 76.61
+        },
+        {
+          "tag": "shutter",
+          "confidence": 70.45
+        },
+        {
+          "tag": "lens",
+          "confidence": 67.77
+        },
+        {
+          "tag": "equipment",
+          "confidence": 62.12
+        }
+      ],
+      "confidence_scores": "100.00,76.61,70.45,67.77,62.12",
+      "created_at": "2025-10-11T15:54:24.190731",
+      "primary_tags": "camera,photographer,shutter,lens,equipment",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261261/products/electronics/cameras/cameras-0.jpg"
+    },
+    {
+      "id": 59,
+      "name": "cameras-1",
+      "category": "cameras",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/cameras/cameras-1.jpg",
+      "description": "High-quality cameras product: cameras-1",
+      "price": 492.5,
+      "brand": "Brand_CAM",
+      "imagga_tags": [
+        {
+          "tag": "reflex camera",
+          "confidence": 100
+        },
+        {
+          "tag": "camera",
+          "confidence": 100
+        },
+        {
+          "tag": "equipment",
+          "confidence": 90.84
+        },
+        {
+          "tag": "photographic equipment",
+          "confidence": 81.05
+        },
+        {
+          "tag": "lens",
+          "confidence": 60.07
+        }
+      ],
+      "confidence_scores": "100.00,100.00,90.84,81.05,60.07",
+      "created_at": "2025-10-11T15:54:24.190758",
+      "primary_tags": "reflex camera,camera,equipment,photographic equipment,lens",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261262/products/electronics/cameras/cameras-1.jpg"
+    },
+    {
+      "id": 60,
+      "name": "chargers-0",
+      "category": "chargers",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/chargers/chargers-0.jpg",
+      "description": "High-quality chargers product: chargers-0",
+      "price": 500.0,
+      "brand": "Brand_CHA",
+      "imagga_tags": [
+        {
+          "tag": "mouse",
+          "confidence": 100
+        },
+        {
+          "tag": "device",
+          "confidence": 100
+        },
+        {
+          "tag": "electronic device",
+          "confidence": 75.32
+        },
+        {
+          "tag": "equipment",
+          "confidence": 55.06
+        },
+        {
+          "tag": "computer",
+          "confidence": 36.91
+        }
+      ],
+      "confidence_scores": "100.00,100.00,75.32,55.06,36.91",
+      "created_at": "2025-10-11T15:54:24.191477",
+      "primary_tags": "mouse,device,electronic device,equipment,computer",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261263/products/electronics/chargers/chargers-0.jpg"
+    },
+    {
+      "id": 61,
+      "name": "chargers-1",
+      "category": "chargers",
+      "main_category": "electronics",
+      "image_path": "/content/drive/MyDrive/vis-suggestion/images/electronics/chargers/chargers-1.jpg",
+      "description": "High-quality chargers product: chargers-1",
+      "price": 507.5,
+      "brand": "Brand_CHA",
+      "imagga_tags": [
+        {
+          "tag": "device",
+          "confidence": 33.54
+        },
+        {
+          "tag": "blank",
+          "confidence": 26.97
+        },
+        {
+          "tag": "paper",
+          "confidence": 25.13
+        },
+        {
+          "tag": "message",
+          "confidence": 24.67
+        },
+        {
+          "tag": "plug",
+          "confidence": 24.63
+        }
+      ],
+      "confidence_scores": "33.54,26.97,25.13,24.67,24.63",
+      "created_at": "2025-10-11T15:54:24.191499",
+      "primary_tags": "device,blank,paper,message,plug",
+      "image_url": "https://res.cloudinary.com/dbmwfppdf/image/upload/v1760261264/products/electronics/chargers/chargers-1.jpg"
+    }
+  ]
+}
